@@ -1,0 +1,53 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "sourceMap": true,
+
+
+        "noEmitOnError": true,
+        "noImplicitAny": false,
+        "module": "es6",
+        "target": "ES6",
+        "jsx":"react",
+
+
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "moduleResolution": "node",
+
+
+
+        "allowJs": true,
+        "baseUrl": ".",
+
+        "lib": [
+            "es2016.array.include",
+            "es2017",
+            "dom"
+        ],
+        "typeRoots": [
+            "../../types",
+            "../../node_modules/@types"
+        ]
+    },
+    "files": [
+        "src/index.ts"
+    ],
+    "include": [
+        "src/**/*.tsx",
+        "src/**/*.ts",
+        "src/**/*.spec.ts"
+    ],
+    "exclude": [
+        "/node_modules"
+    ],
+    "paths": {
+    },
+    "types": [
+        "karma",
+        "jasmine",
+        "node",
+        "source-map",
+        "webpack"
+    ]
+}

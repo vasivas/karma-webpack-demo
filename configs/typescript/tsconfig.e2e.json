@@ -1,0 +1,43 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "sourceMap": true,
+
+        "noEmitOnError": true,
+        "noImplicitAny": false,
+        "module": "commonjs",
+        "target": "ES6",
+
+
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "moduleResolution": "node",
+
+        "rootDirs": ["e2e", "src"],
+
+        "allowJs": true,
+        "baseUrl": ".",
+
+        "lib": [
+            "es2017",
+            "dom"
+        ]
+    },
+    "files": [
+    ],
+    "exclude": [
+        "node_modules"
+    ],
+    "paths": {
+    },
+    "typeRoots": [
+        "node_modules/@types"
+    ],
+    "types": [
+        "karma",
+        "jasmine",
+        "node",
+        "source-map",
+        "webpack"
+    ]
+}
